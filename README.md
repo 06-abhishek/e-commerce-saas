@@ -17,7 +17,7 @@ An advanced **E-Commerce SaaS Platform** built using a **Microservices Architect
 ---
 
 ### 🏗️ Microservices Architecture
-- **Separate services** for Orders, Users, Payments, Products, and Notifications
+- **Separate services** for Orders, Users, Payments, Products, Notifications, etc.
 - **Event-driven communication** using Kafka
 - **Containerization with Docker & Kubernetes**
 
@@ -46,12 +46,12 @@ An advanced **E-Commerce SaaS Platform** built using a **Microservices Architect
 
 ### 📈 Dynamic Pricing & Bidding System
 - **Auto-price adjustments** based on demand & competition
-- **Bidding/Auction system** for limited-edition products
+- **Bidding system** for limited-edition products
 
 ---
 
 ### ⚡ Scalable Caching & Performance Optimization
-- **Redis / Memcached** for session storage & caching
+- **Redis** for session storage & caching
 - **CDN Integration** for faster asset delivery
 - **Lazy loading & Image Optimization**
 
@@ -64,7 +64,7 @@ An advanced **E-Commerce SaaS Platform** built using a **Microservices Architect
 ---
 
 ### 📦 Real-Time Order Tracking & Notifications
-- **WebSockets / Firebase** for live tracking
+- **WebSockets** for live tracking
 - **SMS, Email, and Push Notifications** for updates
 
 ---
@@ -110,18 +110,18 @@ An advanced **E-Commerce SaaS Platform** built using a **Microservices Architect
 ## 🛠️ Tech Stack
 
 ### ⚙️ Backend
-✅ **Node.js (Express/Nest.js) OR Django OR Spring Boot**
-✅ **MongoDB / PostgreSQL (With Prisma ORM)**
+✅ **Node.js (Express)**
+✅ **MongoDB**
 ✅ **Redis (For caching & session storage)**
-✅ **RabbitMQ/Kafka (For event-driven architecture)**
-✅ **Firebase / WebSockets (For real-time updates)**
+✅ **Kafka (For event-driven architecture)**
+✅ **WebSockets (For real-time updates)**
 
 ### 🎨 Frontend (Optional if Headless)
-✅ **React.js / Next.js / Vue.js** (For dynamic UI)
+✅ **React.js & Next.js** (For dynamic UI)
 
 ### 🖥️ DevOps & Deployment
 ✅ **Docker + Kubernetes** (For scalability)
-✅ **AWS / DigitalOcean / Vercel** (For hosting)
+✅ **AWS** (For hosting)
 ✅ **CI/CD with GitHub Actions**
 
 ---
@@ -149,6 +149,7 @@ npm run start:orders
 npm run start:products
 npm run start:payments
 npm run start:notifications
+....
 ```
 
 ---
@@ -169,7 +170,7 @@ Feel free to contribute to this project! Follow the standard GitHub workflow:
 
 ## 📞 Contact
 For inquiries or support, reach out via:
-📧 **your-email@example.com**  
+📧 **abhishekp.7841@gmail.com**  
 🌐 **[LinkedIn](https://www.linkedin.com/in/abhishek-patil-27759630b/)**  
 💻 **[GitHub](https://github.com/06-abhishek/)**
 
