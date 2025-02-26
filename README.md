@@ -149,7 +149,7 @@ npm run start:orders
 npm run start:products
 npm run start:payments
 npm run start:notifications
-....
+etc....
 ```
 
 ---
